@@ -33,7 +33,7 @@ export default {
       // console.log(`解密之后的字符串:${decStr}`);
 
 
-      let idobj = {cat:encStr,dog:encStr}
+      let idobj = {cat:encStr,dog:encStr} 
       //将js对象转为json字符串，然后再传递后端
       let idobjstr = JSON.stringify(idobj);
       let params = {
