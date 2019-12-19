@@ -34,7 +34,7 @@ export default {
 
 
       let idobj = {cat:encStr,dog:encStr} 
-      //将js对象转为json字符串，然后再传递后端
+      //将js对象转为json字符串，然后再传递后端  
       let idobjstr = JSON.stringify(idobj);
       let params = {
         idCard: idobjstr,
