@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     getDate() {
-      // this.$axios.post(``)
+      // this.$axios.post(`123`)
       let str = "330281330200103";
       let age = "22";
       let key = "313233343536373a";
